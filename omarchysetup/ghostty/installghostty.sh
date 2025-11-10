@@ -1,7 +1,4 @@
 #!/bin/sh
 
-pacman -S --noconfirm ghostty
-
-
-exit 0
+sudo pacman -S --noconfirm ghostty
 

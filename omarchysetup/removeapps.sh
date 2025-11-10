@@ -12,5 +12,5 @@
 ~/.local/share/omarchy/bin/omarchy-webapp-remove Figma
 ~/.local/share/omarchy/bin/omarchy-webapp-remove Zoom
 
-~/.local/share/omarchy/bin/omarchy-pkg-remove 1password-cli
-~/.local/share/omarchy/bin/omarchy-pkg-remove 1password-beta  
+sudo ~/.local/share/omarchy/bin/omarchy-pkg-remove 1password-cli
+sudo ~/.local/share/omarchy/bin/omarchy-pkg-remove 1password-beta  

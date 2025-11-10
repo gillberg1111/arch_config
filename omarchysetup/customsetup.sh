@@ -12,7 +12,7 @@ chmod +x ./zsh/installzsh.sh
 . ./zsh/installzsh.sh
 
 chmod +x ./ghostty/installghostty.sh
-#. ./ghostty/installghostty.sh
+. ./ghostty/installghostty.sh
 
 chmod +x ./brave/installbrave.sh
 . ./brave/installbrave.sh
@@ -27,10 +27,10 @@ chmod +x ./proton/installprotonvpn.sh
 
 ~/.local/share/omarchy/bin/omarchy-theme-set Dracula
 
-if [ -d ~/notes ]; then
+if [ -d ~/Notes ]; then
     echo "Notes directory already exits" 
 else
-  su mkdir ~/Notes
+  mkdir ~/Notes
 fi
 
 #Move configs
