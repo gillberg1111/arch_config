@@ -39,5 +39,6 @@ cp ./ghostty/config ~/.config/ghostty/config
 cp ./fish/config.fish ~/.config/fish/config.fish
 cp ./waybar/config.jsonc ~/.config/waybar/config.jsonc
 cp ./starship/starship.toml ~/.config/starship.toml
+cp ./bindings.conf ~/.config/hypr/bindings.conf
 
 exit 0
