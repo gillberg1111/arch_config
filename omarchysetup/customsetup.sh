@@ -25,6 +25,9 @@ chmod +x ./proton/installprotonvpn.sh
 . ./proton/installprotonpass.sh
 . ./proton/installprotonvpn.sh
 
+chmod +x ./boxes/installboxes.sh
+. ./boxes/installboxes.sh
+
 ~/.local/share/omarchy/bin/omarchy-theme-set Dracula
 
 if [ -d ~/Notes ]; then
